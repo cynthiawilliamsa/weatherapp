@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
- class Weather extends Component {
+ class Weather extends Component {   
   render() {
     return (
       <div className="weather__info">

@@ -16,6 +16,7 @@ class App extends React.Component {
     error: undefined,
 
   }
+  // Fetch call for getting weather data
   getWeather = async (e) => {
     e.preventDefault(); 
     const city = e.target.elements.city.value;
